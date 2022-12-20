@@ -47,7 +47,7 @@ type ContainerCreate struct {
 	Runtime *ContainerCreate_Runtime `protobuf:"bytes,3,opt,name=runtime,proto3" json:"runtime,omitempty"`
 }
 
-func (x *ContainerCreate) Reset() {
+func (x *Contain.     erCreate) Reset() {
 	*x = ContainerCreate{}
 	if protoimpl.UnsafeEnabled {
 		mi := &file_github_com_containerd_containerd_api_events_container_proto_msgTypes[0]
